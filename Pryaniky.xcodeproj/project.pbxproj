@@ -72,8 +72,8 @@
 		1B351DF425CC752900383A30 /* Pryaniky */ = {
 			isa = PBXGroup;
 			children = (
-				1B351E0B25CC762500383A30 /* ListData */,
-				1B351E0C25CC763A00383A30 /* DetailsData */,
+				1B351E0B25CC762500383A30 /* ListViewController */,
+				1B351E0C25CC763A00383A30 /* DetailsViewController */,
 				1B351E0D25CC764D00383A30 /* Models */,
 				1B351E0E25CC765700383A30 /* Services */,
 				1B351E1225CC772200383A30 /* Storyboard */,
@@ -83,7 +83,7 @@
 			path = Pryaniky;
 			sourceTree = "<group>";
 		};
-		1B351E0B25CC762500383A30 /* ListData */ = {
+		1B351E0B25CC762500383A30 /* ListViewController */ = {
 			isa = PBXGroup;
 			children = (
 				1B351E1825CC7A2600383A30 /* DataListTableViewController.swift */,
@@ -91,16 +91,16 @@
 				1B351E3525CCA8B000383A30 /* DataTableViewCell.swift */,
 				1B351E3225CCA25300383A30 /* CellViewModel.swift */,
 			);
-			path = ListData;
+			path = ListViewController;
 			sourceTree = "<group>";
 		};
-		1B351E0C25CC763A00383A30 /* DetailsData */ = {
+		1B351E0C25CC763A00383A30 /* DetailsViewController */ = {
 			isa = PBXGroup;
 			children = (
 				1B351E3825CCB15300383A30 /* DetailsViewController.swift */,
 				1B351E3B25CCB17100383A30 /* DetailsViewModel.swift */,
 			);
-			path = DetailsData;
+			path = DetailsViewController;
 			sourceTree = "<group>";
 		};
 		1B351E0D25CC764D00383A30 /* Models */ = {
