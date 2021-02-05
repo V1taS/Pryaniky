@@ -11,13 +11,13 @@
 		1B351DF825CC752900383A30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351DF725CC752900383A30 /* SceneDelegate.swift */; };
 		1B351DFF25CC752900383A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B351DFE25CC752900383A30 /* Assets.xcassets */; };
 		1B351E0225CC752900383A30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B351E0025CC752900383A30 /* LaunchScreen.storyboard */; };
-		1B351E1925CC7A2600383A30 /* DataListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351E1825CC7A2600383A30 /* DataListTableViewController.swift */; };
-		1B351E1C25CC7A9F00383A30 /* DataListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351E1B25CC7A9F00383A30 /* DataListViewModel.swift */; };
+		1B351E1925CC7A2600383A30 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351E1825CC7A2600383A30 /* ListTableViewController.swift */; };
+		1B351E1C25CC7A9F00383A30 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351E1B25CC7A9F00383A30 /* ListViewModel.swift */; };
 		1B351E1F25CC7CB100383A30 /* Pryaniky.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351E1E25CC7CB100383A30 /* Pryaniky.swift */; };
 		1B351E2825CC82D800383A30 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351E2725CC82D800383A30 /* NetworkManager.swift */; };
 		1B351E2B25CC837500383A30 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351E2A25CC837500383A30 /* ImageManager.swift */; };
 		1B351E3325CCA25300383A30 /* CellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351E3225CCA25300383A30 /* CellViewModel.swift */; };
-		1B351E3625CCA8B000383A30 /* DataTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351E3525CCA8B000383A30 /* DataTableViewCell.swift */; };
+		1B351E3625CCA8B000383A30 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351E3525CCA8B000383A30 /* TableViewCell.swift */; };
 		1B351E3925CCB15300383A30 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351E3825CCB15300383A30 /* DetailsViewController.swift */; };
 		1B351E3C25CCB17100383A30 /* DetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351E3B25CCB17100383A30 /* DetailsViewModel.swift */; };
 		1B351E4025CCB95D00383A30 /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B351E3F25CCB95D00383A30 /* UIStackView.swift */; };
@@ -30,13 +30,13 @@
 		1B351DFE25CC752900383A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B351E0125CC752900383A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B351E0325CC752900383A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1B351E1825CC7A2600383A30 /* DataListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListTableViewController.swift; sourceTree = "<group>"; };
-		1B351E1B25CC7A9F00383A30 /* DataListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataListViewModel.swift; sourceTree = "<group>"; };
+		1B351E1825CC7A2600383A30 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		1B351E1B25CC7A9F00383A30 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		1B351E1E25CC7CB100383A30 /* Pryaniky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pryaniky.swift; sourceTree = "<group>"; };
 		1B351E2725CC82D800383A30 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		1B351E2A25CC837500383A30 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		1B351E3225CCA25300383A30 /* CellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewModel.swift; sourceTree = "<group>"; };
-		1B351E3525CCA8B000383A30 /* DataTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataTableViewCell.swift; sourceTree = "<group>"; };
+		1B351E3525CCA8B000383A30 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		1B351E3825CCB15300383A30 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		1B351E3B25CCB17100383A30 /* DetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewModel.swift; sourceTree = "<group>"; };
 		1B351E3F25CCB95D00383A30 /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
@@ -86,9 +86,9 @@
 		1B351E0B25CC762500383A30 /* ListViewController */ = {
 			isa = PBXGroup;
 			children = (
-				1B351E1825CC7A2600383A30 /* DataListTableViewController.swift */,
-				1B351E1B25CC7A9F00383A30 /* DataListViewModel.swift */,
-				1B351E3525CCA8B000383A30 /* DataTableViewCell.swift */,
+				1B351E1825CC7A2600383A30 /* ListTableViewController.swift */,
+				1B351E1B25CC7A9F00383A30 /* ListViewModel.swift */,
+				1B351E3525CCA8B000383A30 /* TableViewCell.swift */,
 				1B351E3225CCA25300383A30 /* CellViewModel.swift */,
 			);
 			path = ListViewController;
@@ -225,14 +225,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1B351E1F25CC7CB100383A30 /* Pryaniky.swift in Sources */,
-				1B351E1C25CC7A9F00383A30 /* DataListViewModel.swift in Sources */,
+				1B351E1C25CC7A9F00383A30 /* ListViewModel.swift in Sources */,
 				1B351E3925CCB15300383A30 /* DetailsViewController.swift in Sources */,
 				1B351E2B25CC837500383A30 /* ImageManager.swift in Sources */,
 				1B351E3325CCA25300383A30 /* CellViewModel.swift in Sources */,
 				1B351E2825CC82D800383A30 /* NetworkManager.swift in Sources */,
 				1B351DF625CC752900383A30 /* AppDelegate.swift in Sources */,
-				1B351E3625CCA8B000383A30 /* DataTableViewCell.swift in Sources */,
-				1B351E1925CC7A2600383A30 /* DataListTableViewController.swift in Sources */,
+				1B351E3625CCA8B000383A30 /* TableViewCell.swift in Sources */,
+				1B351E1925CC7A2600383A30 /* ListTableViewController.swift in Sources */,
 				1B351DF825CC752900383A30 /* SceneDelegate.swift in Sources */,
 				1B351E4025CCB95D00383A30 /* UIStackView.swift in Sources */,
 				1B351E3C25CCB17100383A30 /* DetailsViewModel.swift in Sources */,

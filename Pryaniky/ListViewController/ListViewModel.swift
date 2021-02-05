@@ -7,7 +7,7 @@
 
 import Foundation
 
-protocol DataListViewModelProtocol {
+protocol ListViewModelProtocol {
     var listData: [DataList] { get }
     func fetchData(completion: @escaping() -> Void)
     func numberOfRows() -> Int
@@ -16,7 +16,7 @@ protocol DataListViewModelProtocol {
     func viewModelForSelectedRow() -> DetailsViewModelProtocol?
 }
 
-class DataListViewModel: DataListViewModelProtocol {
+class ListViewModel: ListViewModelProtocol {
     
     var listData: [DataList] = []
     var indexPath: IndexPath?

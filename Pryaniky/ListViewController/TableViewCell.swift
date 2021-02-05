@@ -7,7 +7,7 @@
 
 import UIKit
 
-class DataTableViewCell: UITableViewCell {
+class TableViewCell: UITableViewCell {
     
     var viewModel: CellViewModelProtocol! {
         didSet {

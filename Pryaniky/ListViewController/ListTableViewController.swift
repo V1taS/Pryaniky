@@ -1,5 +1,5 @@
 //
-//  DataListTableViewController.swift
+//  ListTableViewController.swift
 //  Pryaniky
 //
 //  Created by Vitalii Sosin on 04.02.2021.
@@ -7,10 +7,10 @@
 
 import UIKit
 
-class DataListTableViewController: UITableViewController {
+class ListTableViewController: UITableViewController {
     
     private let idCell = "dataCell"
-    private var viewModel: DataListViewModelProtocol! {
+    private var viewModel: ListViewModelProtocol! {
         didSet {
             viewModel.fetchData {
                 DispatchQueue.main.async {
@@ -22,8 +22,8 @@ class DataListTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        viewModel = DataListViewModel()
-        self.tableView.register(DataTableViewCell.self, forCellReuseIdentifier: idCell)
+        viewModel = ListViewModel()
+        self.tableView.register(TableViewCell.self, forCellReuseIdentifier: idCell)
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -31,7 +31,7 @@ class DataListTableViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: idCell, for: indexPath) as! DataTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: idCell, for: indexPath) as! TableViewCell
         let cellViewModel = viewModel.cellViewModel(for: indexPath)
         cell.viewModel = cellViewModel
         return cell
